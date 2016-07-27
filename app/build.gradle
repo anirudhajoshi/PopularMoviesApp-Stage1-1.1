@@ -23,7 +23,7 @@ android {
     }
 
     buildTypes.each {
-        it.buildConfigField "String", "MyMovieDBApiKey", "\"Insert your key here\""
+        it.buildConfigField "String", "MyMovieDBApiKey", "\"\""
     }
 }
 

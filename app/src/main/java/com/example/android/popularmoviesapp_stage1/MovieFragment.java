@@ -40,7 +40,7 @@ public class MovieFragment extends Fragment {
 
     private void updateMovies() {
 
-        String sortOrder = "ratings";
+        String sortOrder = "ratings";   // or ratings
         FetchMoviesTask moviestask = new FetchMoviesTask();
         moviestask.execute(sortOrder);
     }
@@ -66,7 +66,6 @@ public class MovieFragment extends Fragment {
                     MOVIE_BASE_URL += "popular";
                 else if(params[0].equals("ratings"))
                     MOVIE_BASE_URL += "top_rated";
-
 
                 Uri builtUri = Uri.parse(MOVIE_BASE_URL).buildUpon()
                         .appendQueryParameter(APPID_PARAM, BuildConfig.MyMovieDBApiKey)
