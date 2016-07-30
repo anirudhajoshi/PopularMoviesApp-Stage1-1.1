@@ -59,4 +59,12 @@ public class Movie {
     public void setReleasedate(String releasedate) {
         this.releasedate = releasedate;
     }
+
+    public String toString() {
+        return "Movie:" + "id - " + this.getId() +
+                ", title - " + getTitle() +
+                ", synopsis - " + getDescription() +
+                ", poster path - " + this.getPoster() +
+                ", release date - " + this.getReleasedate();
+    }
 }

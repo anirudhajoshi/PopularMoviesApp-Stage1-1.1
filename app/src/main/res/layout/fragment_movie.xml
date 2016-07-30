@@ -2,24 +2,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context="com.example.android.popularmoviesapp_stage1.MovieFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
     <GridView
+
         android:id="@+id/moviegrid"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:columnWidth="80dp"
-        android:gravity="center"
+        android:layout_height="match_parent"
         android:numColumns="auto_fit"
+        android:columnWidth="175dp"
+        android:horizontalSpacing="0dp"
+        android:verticalSpacing="0dp"
         android:stretchMode="columnWidth"
-        />
+    />
 
 
 </FrameLayout>
