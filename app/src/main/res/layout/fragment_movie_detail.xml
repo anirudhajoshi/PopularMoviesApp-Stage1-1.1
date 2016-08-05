@@ -63,6 +63,13 @@
                 android:layout_below="@id/runtime"
                 android:textSize="15sp" />
 
+            <TextView
+                android:id="@+id/synopsis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/poster"
+                android:textSize="24sp" />
 
         </RelativeLayout>
 

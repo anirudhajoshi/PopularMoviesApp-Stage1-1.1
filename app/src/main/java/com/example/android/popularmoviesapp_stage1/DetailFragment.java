@@ -40,6 +40,8 @@ public class DetailFragment extends Fragment {
     TextView runtime;
     @BindView(R.id.rating)
     TextView rating;
+    @BindView(R.id.synopsis)
+    TextView synopsis;
 
     public DetailFragment() {
         // Required empty public constructor
@@ -96,6 +98,9 @@ public class DetailFragment extends Fragment {
                     // Set movie rating
                     String maxrating = getActivity().getResources().getString(R.string.maxratings);
                     rating.setText(movie.getVoteAvarage() + "/" + maxrating);
+
+                   // Set the movie synopsis
+                   synopsis.setText(movie.getOverview());
                 }
             }
 
