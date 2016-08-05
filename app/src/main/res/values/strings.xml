@@ -4,4 +4,30 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string name="settings">Settings</string>
+
+    <string name="pref_sortorder">Sort Order</string>
+
+    <!-- Key name for sort order preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_sortorder_key">sortorder</string>
+    <string name="pref_sortorder_default">popular</string>
+
+    <string name="pref_sortorder_label_popular">Most Popular</string>
+    <string name="pref_sortorder_label_ratings">Top Rated</string>
+    <string name="pref_sortorder_popular">popular</string>
+    <string name="pref_sortorder_ratings">top_rated</string>
+
+    <string name="moviedetail_title">Movie Details</string>
+    <string name="title_popular">Popular Movies</string>
+    <string name="title_toprated">Top Rated Movies</string>
+
+    <string name="minutes">minutes</string>
+    <string name="maxratings">10</string>
+
+    <string name="error">There was an error in getting the movies. Are connected to the internet?
+    </string>
+
+    <string name="nomovies">There was an error retrieving the movies list.
+        Please make sure you are connected to the internet and try again.</string>
+
 </resources>
